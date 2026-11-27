@@ -1,0 +1,6 @@
+out/
+out-repeat/
+artifacts/
+node_modules/
+transcripts*.tar.gz
+.superpowers/

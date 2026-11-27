@@ -1,0 +1,87 @@
+{
+  "tool": "Chromium via Playwright page.screenshot",
+  "viewport": [
+    1280,
+    720
+  ],
+  "edited": false,
+  "source": "scripts/sortie-test.mjs; actual mouse and keyboard flight, no state injection",
+  "screenshots": [
+    {
+      "file": "screenshots/01-high-pass.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 129919,
+      "sha256": "26498b7ae4beda1bb218c8ab46c8f4b5e2495e0d3d795156a16124004af73efe",
+      "capture": "Playwright page.screenshot, Chromium, 1280x720, unedited",
+      "flight": {
+        "mode": "flying",
+        "z": 2060.1329179715144,
+        "alt": 376.42368621664593,
+        "speed": 77.59999996030432,
+        "heading": 2.2385108591969356,
+        "passed": 2,
+        "delivered": false,
+        "gear": false,
+        "score": 700
+      }
+    },
+    {
+      "file": "screenshots/02-airmail-village.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 122136,
+      "sha256": "cc65e71858016a9e4d79f0b14df6eecf03e4e2250c061972dff2a99f1647cce9",
+      "capture": "Playwright page.screenshot, Chromium, 1280x720, unedited",
+      "flight": {
+        "mode": "flying",
+        "z": 4822.692917915441,
+        "alt": 170.67598604072296,
+        "speed": 77.5999999999994,
+        "heading": 2.8488520675812197,
+        "passed": 5,
+        "delivered": false,
+        "gear": false,
+        "score": 1750
+      }
+    },
+    {
+      "file": "screenshots/03-final-approach.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 120924,
+      "sha256": "b7e8bb9ef6833d176b12ee9243044e80ce8e0062c6e2bdb1ffab95ae666e32c0",
+      "capture": "Playwright page.screenshot, Chromium, 1280x720, unedited",
+      "flight": {
+        "mode": "flying",
+        "z": 6090.707234941025,
+        "alt": 69.74819003781445,
+        "speed": 47.97313128032969,
+        "heading": 359.9929855351944,
+        "passed": 5,
+        "delivered": true,
+        "gear": true,
+        "score": 2550
+      }
+    },
+    {
+      "file": "screenshots/04-home.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 66215,
+      "sha256": "dd94d56b331e539602af2917e33d0e8c8a620aa47970b618e5bc9769d7a330e5",
+      "capture": "Playwright page.screenshot, Chromium, 1280x720, unedited",
+      "flight": {
+        "mode": "landed",
+        "z": 6716.6037731637,
+        "alt": 8,
+        "speed": 47.96000134184678,
+        "heading": 359.9999764094993,
+        "passed": 5,
+        "delivered": true,
+        "gear": true,
+        "score": 3540
+      }
+    }
+  ]
+}

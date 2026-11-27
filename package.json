@@ -1,0 +1,1 @@
+{"name":"amberline-airpost","private":true,"type":"module","scripts":{"test":"node --test --test-isolation=none tests/*.test.mjs","serve":"node serve.ts"}}
